@@ -18,7 +18,7 @@ set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 call dein#begin('~/.cache/dein')
 call dein#add('preservim/nerdtree')
 call dein#add('morhetz/gruvbox')
-call dein#add('itchyny/lightline.vim')
+call dein#add('vim-airline/vim-airline')
 call dein#add('jiangmiao/auto-pairs')
 call dein#add('tpope/vim-surround')
 call dein#add('sheerun/vim-polyglot')
