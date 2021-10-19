@@ -36,8 +36,9 @@ if dein#check_install()
 endif
 
 " morhetz/gruvbox
-colorscheme gruvbox
+set t_Co=256
 set bg=dark
+colorscheme gruvbox
 
 " preservim/nerdtree
 nnoremap <leader>n :NERDTreeFocus<CR>
